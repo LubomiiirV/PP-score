@@ -5,13 +5,8 @@
 }
 
 body {
-  font-family: "Work Sans";
-}
+  font-family: "Work Sans"; /*responsive rules*/
 
-/*base*/
-.container {
-  /*responsive rules*/
-  position: relative;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -21,10 +16,14 @@ body {
   color: #ffffff;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0 auto;
+}
+
+/*base*/
+.container {
+  position: relative;
   height: 798px;
   width: 1440px;
-  top: 100px;
-  margin: 0 auto;
 }
 .absolute {
   position: absolute;
@@ -202,25 +201,16 @@ img {
 
 @media screen and (max-width: 450px) {
   /* mobile */
+
   .container {
-    /*responsive rules*/
     width: 375px;
     height: 667px;
     top: 0;
   }
 
-  .absolute {
-    position: absolute;
-  }
-
-  .props {
-    display: flex;
-  }
-
   /*top*/
   .crown {
     color: #fefcbf;
-    border-radius: 0px;
     padding-bottom: 20px;
     font-size: 30px;
     top: 27px;
@@ -237,76 +227,59 @@ img {
   }
 
   .first-person-check {
-    top: 93px;
-    left: 164px;
+    left: 179px;
+    top: 90px;
+    font-size: 12px;
+    line-height: 108%;
   }
 
-  .stopwatch-first {
-    top: 105px;
-    left: 164px;
-  }
-
-  .number-first {
-    top: 105px;
-    left: 164px;
+  .first-person-stopwatch {
+    left: 175px;
+    top: 104px;
+    font-size: 12px;
+    line-height: 108%;
   }
 
   /*second one*/
   .second-person {
-    width: 102px;
-    height: 13px;
     left: 30px;
     top: 100px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
-  /* .second-person-check {
-  top: 0px;
-  left: 0px;
-} */
+  .second-person-check {
+    left: 67px;
+    top: 115px;
+    font-size: 12px;
+    line-height: 108%;
+  }
 
-  /* .ten-ten-second {
-  left: 467px;
-  top: 159px;
-} */
-
-  /* .stopwatch-second {
-  top: 0px;
-  left: 0px;
-} */
-
-  .number-second {
-    left: 567px;
-    top: 160px;
+  .second-person-stopwatch {
+    left: 67px;
+    top: 129px;
+    font-size: 12px;
+    line-height: 108%;
   }
 
   /*third-one*/
   .third-person {
-    width: 102px;
-    height: 13px;
     left: 238px;
     top: 122px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .third-person-check {
-    top: 0px;
-    left: 0px;
+    left: 275px;
+    top: 138px;
+    font-size: 12px;
+    line-height: 108%;
   }
 
-  .ten-ten-third {
-    left: 868px;
-    top: 189px;
-  }
-
-  .stopwatch-third {
-    top: 0px;
-    left: 0px;
-  }
-
-  .number-third {
-    left: 968px;
-    top: 190px;
+  .third-person-stopwatch {
+    left: 275px;
+    top: 152px;
+    font-size: 12px;
+    line-height: 108%;
   }
 
   /* banners*/
@@ -319,8 +292,8 @@ img {
     clip-path: polygon(0 6%, 100% 0%, 70% 100%, 15% 100%);
   }
   .h1-number-one {
-    left: 158px;
-    top: 133px;
+    left: 35px;
+    top: 20px;
     font-size: 54px;
   }
 
@@ -334,8 +307,8 @@ img {
   }
 
   .h1-number-second {
-    left: 155px;
-    top: 25px;
+    left: 65px;
+    top: 17px;
     font-size: 54px;
   }
 
@@ -349,21 +322,22 @@ img {
   }
 
   .h1-number-third {
-    left: 84px;
-    top: 20px;
+    left: 35px;
+    top: 10px;
     font-size: 54px;
   }
 
   /*players section*/
   .friends {
-    top: 0px;
-    left: 0px;
+    top: 282px;
+    left: 115px;
+    font-size: 18.75px;
   }
 
   .players-h1 {
-    left: 50%;
-    top: 426px;
-    font-size: 24px;
+    left: 149px;
+    top: 282px;
+    font-size: 16px;
   }
 
   /*your place section */
@@ -378,35 +352,27 @@ img {
   }
 
   .your-place-h2 {
-    left: 172px;
-    top: 12px;
-    font-size: 20px;
+    left: 103px;
+    top: 18px;
+    font-size: 18px;
   }
 
   .your-place-number {
-    left: 174px;
-    top: 36px;
-    font-size: 80px;
+    left: 120px;
+    top: 50px;
+    font-size: 54px;
   }
 
   .your-place-check {
-    top: 0px;
-    left: 0px;
+    top: 116px;
+    left: 64px;
+    font-size: 16px;
   }
 
-  .ten-ten-your-place {
-    left: 170px;
-    top: 142px;
-  }
-
-  .stopwatch-your-place {
-    top: 0px;
-    left: 0px;
-  }
-
-  .number-your-place {
-    left: 269px;
-    top: 142px;
+  .your-place-stopwatch {
+    top: 116px;
+    left: 180px;
+    font-size: 16px;
   }
 
   img {
