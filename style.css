@@ -1,0 +1,166 @@
+@import "default-css.css";
+
+body {
+  background-color: #5337c8;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.container,
+.your-place,
+img {
+  width: 640px;
+  margin: 0 auto;
+  /* Flex rules */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 1.6em;
+  margin-right: 30px;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h1.h1-number {
+  font-size: 3.5em;
+}
+
+.h1-number {
+  text-align: center;
+  padding: 25px;
+}
+
+/*top section*/
+.top {
+  text-align: center;
+  margin-top: 2em;
+}
+
+/*middle section*/
+.stupienky {
+  display: flex;
+}
+
+.first {
+  align-self: flex-end;
+  text-align: center;
+  order: 2;
+}
+
+.first-score.time {
+    display: inline-flex;
+}
+
+.first-position-banner {
+  padding: 0;
+  background-color: #211650;
+  height: 350px;
+  width: 250px;
+  clip-path: polygon(6% 14%, 100% 5%, 86% 100%, 17% 100%);
+}
+
+.first-position-banner h1 {
+  padding-top: 60px;
+}
+
+.second {
+  position: relative;
+  left: 82px;
+  align-self: flex-end;
+  order: 1;
+}
+
+.second-position-banner {
+  padding: 0;
+  background-color: #312179;
+  height: 300px;
+  width: 350px;
+  clip-path: polygon(0 23%, 88% 32%, 100% 100%, 56% 100%);
+}
+
+.second-position-banner h1 {
+  padding-top: 100px;
+}
+
+.third {
+  position: relative;
+  right: 107px;
+  align-self: flex-end;
+  order: 3;
+}
+
+.third-position-banner {
+  padding: 0;
+  background-color: #3f2996;
+  height: 280px;
+  width: 320px;
+  clip-path: polygon(23% 39%, 100% 32%, 35% 100%, 13% 100%);
+}
+
+.third-position-banner h1 {
+  padding-top: 120px;
+}
+
+
+/*players section*/
+.players {
+  font-size: 2em;
+  margin: 25px 0;
+}
+
+h1.your-place-number {
+  font-size: 4.5em;
+}
+
+h1.ikona {
+  text-align: center;
+  font-size: inherit;
+}
+
+.your-place {
+  background-color: #211650;
+}
+
+.your-place h2 {
+  padding: 15px 0;
+}
+
+.your-place h1 {
+  padding-bottom: 15px;
+}
+
+.your-place-icon-time p {
+  font-weight: bold;
+  padding: 0 0 10px 10px;
+  display: inline-flex;
+}
+
+.your-place,
+img {
+  text-align: center;
+  border-radius: 30px;
+}
+
+/*bottom-section*/
+img {
+  margin-top: 20px;
+}
+
+/* RESPONSIVE */
+/* @media (max-width: 850px) {
+  .container,
+  .your-place,
+  .players, img {
+    width: 550px;
+    margin: 0 auto;
+    padding-left: 3px;
+  }
+} */
