@@ -1,1 +1,1 @@
-https://vlubosh.github.io/PP-score-figma/
+https://vlubosh.github.io/PP-score/
